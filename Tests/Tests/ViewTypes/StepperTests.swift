@@ -1,3 +1,4 @@
+#if !os(watchOS)
 #if !os(tvOS)
 import SwiftUI
 import SwiftUIIntrospect
@@ -45,4 +46,6 @@ final class StepperTests: XCTestCase {
         }
     }
 }
+#endif
+
 #endif

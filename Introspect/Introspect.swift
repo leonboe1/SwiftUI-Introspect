@@ -1,3 +1,4 @@
+#if !os(watchOS)
 import SwiftUI
 
 #if os(macOS)
@@ -355,3 +356,5 @@ private extension Array {
         return self[index]
     }
 }
+
+#endif

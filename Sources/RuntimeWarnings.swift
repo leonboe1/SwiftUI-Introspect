@@ -1,3 +1,4 @@
+#if !os(watchOS)
 // MIT License
 //
 // Copyright (c) 2020 Point-Free, Inc.
@@ -80,4 +81,6 @@ func runtimeWarn(
       return formatter
     }()
   #endif
+#endif
+
 #endif

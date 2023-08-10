@@ -1,3 +1,4 @@
+#if !os(watchOS)
 
 //
 //  NavigationController.swift
@@ -42,3 +43,5 @@ extension NavigationController: UIGestureRecognizerDelegate {
         viewControllers.count > 1
     }
 }
+
+#endif

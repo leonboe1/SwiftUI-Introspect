@@ -1,3 +1,4 @@
+#if !os(watchOS)
 #if os(macOS)
 import SwiftUI
 import SwiftUIIntrospect
@@ -40,4 +41,6 @@ final class ListWithBorderedStyleTests: XCTestCase {
         }
     }
 }
+#endif
+
 #endif

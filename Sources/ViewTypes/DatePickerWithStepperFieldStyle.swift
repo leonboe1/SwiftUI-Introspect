@@ -1,3 +1,4 @@
+#if !os(watchOS)
 import SwiftUI
 
 /// An abstract representation of the `DatePicker` type in SwiftUI, with `.stepperField` style.
@@ -45,4 +46,6 @@ extension macOSViewVersion<DatePickerWithStepperFieldStyleType, NSDatePicker> {
     public static let v14 = Self(for: .v14)
 }
 #endif
+#endif
+
 #endif

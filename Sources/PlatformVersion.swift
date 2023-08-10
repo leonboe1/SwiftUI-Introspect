@@ -1,3 +1,4 @@
+#if !os(watchOS)
 import Foundation
 
 public enum PlatformVersionCondition {
@@ -273,3 +274,5 @@ extension macOSVersion {
         #endif
     }
 }
+
+#endif

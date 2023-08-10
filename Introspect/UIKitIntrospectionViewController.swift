@@ -1,3 +1,4 @@
+#if !os(watchOS)
 #if canImport(UIKit)
 import SwiftUI
 import UIKit
@@ -70,4 +71,6 @@ public struct UIKitIntrospectionViewController<TargetViewControllerType: UIViewC
         (viewController.view as? IntrospectionUIView)?.moveToWindowHandler = nil
     }
 }
+#endif
+
 #endif

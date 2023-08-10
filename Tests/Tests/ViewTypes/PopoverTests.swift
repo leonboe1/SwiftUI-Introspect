@@ -1,3 +1,4 @@
+#if !os(watchOS)
 #if os(iOS)
 import SwiftUI
 import SwiftUIIntrospect
@@ -24,4 +25,6 @@ final class PopoverTests: XCTestCase {
         }
     }
 }
+#endif
+
 #endif

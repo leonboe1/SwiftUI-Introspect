@@ -1,3 +1,4 @@
+#if !os(watchOS)
 #if !LEGACY_MACOS_SDK
 import SwiftUI
 import SwiftUIIntrospect
@@ -46,4 +47,6 @@ final class TabViewTests: XCTestCase {
         }
     }
 }
+#endif
+
 #endif

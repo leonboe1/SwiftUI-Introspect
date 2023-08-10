@@ -1,3 +1,4 @@
+#if !os(watchOS)
 import SwiftUIIntrospect
 import XCTest
 
@@ -254,3 +255,5 @@ final class PlatformVersionTests: XCTestCase {
         #endif
     }
 }
+
+#endif

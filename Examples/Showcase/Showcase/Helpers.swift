@@ -1,3 +1,4 @@
+#if !os(watchOS)
 import SwiftUI
 
 extension View {
@@ -15,3 +16,5 @@ extension View {
         modifier(self)
     }
 }
+
+#endif

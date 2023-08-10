@@ -1,3 +1,4 @@
+#if !os(watchOS)
 // swift-tools-version:5.4
 
 import PackageDescription
@@ -7,3 +8,5 @@ let package = Package(
     products: [],
     targets: []
 )
+
+#endif

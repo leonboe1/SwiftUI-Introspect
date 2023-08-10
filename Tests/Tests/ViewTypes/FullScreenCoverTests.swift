@@ -1,3 +1,4 @@
+#if !os(watchOS)
 #if os(iOS) || os(tvOS)
 import SwiftUI
 import SwiftUIIntrospect
@@ -28,4 +29,6 @@ final class FullScreenCoverTests: XCTestCase {
         }
     }
 }
+#endif
+
 #endif

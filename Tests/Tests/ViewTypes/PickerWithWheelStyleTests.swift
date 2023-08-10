@@ -1,3 +1,4 @@
+#if !os(watchOS)
 #if os(iOS)
 import SwiftUI
 import SwiftUIIntrospect
@@ -53,4 +54,6 @@ final class PickerWithWheelStyleTests: XCTestCase {
         }
     }
 }
+#endif
+
 #endif

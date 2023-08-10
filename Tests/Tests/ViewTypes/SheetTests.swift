@@ -1,3 +1,4 @@
+#if !os(watchOS)
 #if os(iOS) || os(tvOS)
 import SwiftUI
 import SwiftUIIntrospect
@@ -60,4 +61,6 @@ final class SheetTests: XCTestCase {
     }
     #endif
 }
+#endif
+
 #endif

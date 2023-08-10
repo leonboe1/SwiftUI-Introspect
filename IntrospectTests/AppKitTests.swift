@@ -1,3 +1,4 @@
+#if !os(watchOS)
 #if canImport(AppKit) && !targetEnvironment(macCatalyst)
 
 import XCTest
@@ -503,4 +504,6 @@ class AppKitTests: XCTestCase {
         wait(for: [expectation], timeout: TestUtils.Constants.timeout)
     }
 }
+#endif
+
 #endif

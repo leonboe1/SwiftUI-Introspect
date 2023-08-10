@@ -1,3 +1,4 @@
+#if !os(watchOS)
 #if !os(macOS)
 import SwiftUI
 import SwiftUIIntrospect
@@ -37,4 +38,6 @@ final class FormTests: XCTestCase {
         }
     }
 }
+#endif
+
 #endif

@@ -1,3 +1,4 @@
+#if !os(watchOS)
 import SwiftUI
 
 /// An abstract representation of the `TabView` type in SwiftUI, with `.page` style.
@@ -70,4 +71,6 @@ extension tvOSViewVersion<TabViewWithPageStyleType, UICollectionView> {
     public static let v17 = Self(for: .v17)
 }
 #endif
+#endif
+
 #endif

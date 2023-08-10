@@ -1,3 +1,4 @@
+#if !os(watchOS)
 #if !os(tvOS)
 import SwiftUI
 import SwiftUIIntrospect
@@ -48,4 +49,6 @@ final class ListWithSidebarStyleTests: XCTestCase {
         }
     }
 }
+#endif
+
 #endif

@@ -1,3 +1,4 @@
+#if !os(watchOS)
 #if !os(tvOS)
 import SwiftUI
 import SwiftUIIntrospect
@@ -58,4 +59,6 @@ final class TextEditorTests: XCTestCase {
         }
     }
 }
+#endif
+
 #endif

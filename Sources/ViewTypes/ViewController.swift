@@ -1,3 +1,4 @@
+#if !os(watchOS)
 import SwiftUI
 
 /// An abstract representation of the receiving SwiftUI view's view controller,
@@ -69,4 +70,6 @@ extension tvOSViewVersion<ViewControllerType, UIViewController> {
     public static let v16 = Self(for: .v16)
     public static let v17 = Self(for: .v17)
 }
+#endif
+
 #endif

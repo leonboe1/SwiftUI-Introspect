@@ -1,3 +1,4 @@
+#if !os(watchOS)
 #if os(macOS)
 import SwiftUI
 import SwiftUIIntrospect
@@ -53,4 +54,6 @@ final class PickerWithMenuStyleTests: XCTestCase {
         }
     }
 }
+#endif
+
 #endif

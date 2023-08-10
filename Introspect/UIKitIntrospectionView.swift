@@ -1,3 +1,4 @@
+#if !os(watchOS)
 #if canImport(UIKit)
 import UIKit
 import SwiftUI
@@ -81,4 +82,6 @@ public struct UIKitIntrospectionView<TargetViewType: UIView>: UIViewRepresentabl
         view.moveToWindowHandler = nil
     }
 }
+#endif
+
 #endif

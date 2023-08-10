@@ -1,3 +1,4 @@
+#if !os(watchOS)
 #if os(macOS)
 import SwiftUI
 import SwiftUIIntrospect
@@ -47,4 +48,6 @@ final class ToggleWithButtonStyleTests: XCTestCase {
         }
     }
 }
+#endif
+
 #endif

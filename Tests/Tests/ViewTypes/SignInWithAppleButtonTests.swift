@@ -1,3 +1,4 @@
+#if !os(watchOS)
 #if canImport(AuthenticationServices)
 import AuthenticationServices
 import SwiftUI
@@ -47,4 +48,6 @@ final class SignInWithAppleButtonTests: XCTestCase {
         }
     }
 }
+#endif
+
 #endif

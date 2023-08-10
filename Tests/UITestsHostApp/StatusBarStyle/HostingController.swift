@@ -1,3 +1,4 @@
+#if !os(watchOS)
 //
 //  HostingController.swift
 //  Blago
@@ -30,3 +31,5 @@ final class HostingController<ContentView>: UIHostingController<ContentView> whe
         }
     }
 }
+
+#endif

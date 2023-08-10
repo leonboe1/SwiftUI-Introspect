@@ -1,3 +1,4 @@
+#if !os(watchOS)
 import SwiftUI
 
 /// An abstract representation of the `Form` type in SwiftUI.
@@ -70,4 +71,6 @@ extension tvOSViewVersion<FormType, UITableView> {
     public static let v17 = Self(for: .v17)
 }
 #endif
+#endif
+
 #endif

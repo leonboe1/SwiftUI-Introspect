@@ -1,3 +1,4 @@
+#if !os(watchOS)
 import SnapshotTesting
 import XCTest
 
@@ -28,3 +29,5 @@ final class StatusBarStyleUITests: UITestCase {
         )
     }
 }
+
+#endif

@@ -1,3 +1,4 @@
+#if !os(watchOS)
 #if os(iOS) || os(macOS)
 import SwiftUI
 import SwiftUIIntrospect
@@ -65,4 +66,6 @@ final class DatePickerWithCompactStyleTests: XCTestCase {
         }
     }
 }
+#endif
+
 #endif

@@ -1,3 +1,4 @@
+#if !os(watchOS)
 #if os(iOS) || os(tvOS)
 import SwiftUI
 import SwiftUIIntrospect
@@ -43,4 +44,6 @@ final class ViewControllerTests: XCTestCase {
         }
     }
 }
+#endif
+
 #endif

@@ -1,3 +1,4 @@
+#if !os(watchOS)
 #if os(iOS) || os(macOS)
 import SwiftUI
 import SwiftUIIntrospect
@@ -149,4 +150,6 @@ extension TableTests {
         }
     }
 }
+#endif
+
 #endif

@@ -1,3 +1,4 @@
+#if !os(watchOS)
 import SwiftUI
 
 /// An abstract representation of the `List` type in SwiftUI, with `.sidebar` style.
@@ -76,4 +77,6 @@ extension macOSViewVersion<ListWithSidebarStyleType, NSTableView> {
     public static let v14 = Self(for: .v14)
 }
 #endif
+#endif
+
 #endif

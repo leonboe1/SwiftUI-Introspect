@@ -1,3 +1,4 @@
+#if !os(watchOS)
 import SwiftUI
 
 /// An abstract representation of the `Stepper` type in SwiftUI.
@@ -60,4 +61,6 @@ extension macOSViewVersion<StepperType, NSStepper> {
     public static let v14 = Self(for: .v14)
 }
 #endif
+#endif
+
 #endif

@@ -1,3 +1,4 @@
+#if !os(watchOS)
 import SwiftUI
 import XCTest
 
@@ -104,3 +105,5 @@ extension Collection {
         return self[index]
     }
 }
+
+#endif

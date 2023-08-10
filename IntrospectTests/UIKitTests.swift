@@ -1,3 +1,4 @@
+#if !os(watchOS)
 #if canImport(UIKit)
 import XCTest
 import SwiftUI
@@ -736,4 +737,6 @@ class UIKitTests: XCTestCase {
         wait(for: [expectation], timeout: TestUtils.Constants.timeout)
     }
 }
+#endif
+
 #endif

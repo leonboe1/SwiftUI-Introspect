@@ -1,3 +1,4 @@
+#if !os(watchOS)
 import SimulatorStatusMagic
 import XCTest
 
@@ -19,3 +20,5 @@ class UITestCase: XCTestCase {
         super.invokeTest()
     }
 }
+
+#endif

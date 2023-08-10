@@ -1,3 +1,4 @@
+#if !os(watchOS)
 import SwiftUI
 
 #if os(iOS) || os(tvOS)
@@ -22,4 +23,6 @@ struct App: SwiftUI.App {
         }
     }
 }
+#endif
+
 #endif

@@ -1,3 +1,4 @@
+#if !os(watchOS)
 #if canImport(AVKit)
 import AVKit
 import SwiftUI
@@ -55,4 +56,6 @@ final class VideoPlayerTests: XCTestCase {
         }
     }
 }
+#endif
+
 #endif

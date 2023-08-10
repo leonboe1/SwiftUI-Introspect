@@ -1,3 +1,4 @@
+#if !os(watchOS)
 import SwiftUI
 import SwiftUIIntrospect
 import XCTest
@@ -57,3 +58,5 @@ final class ProgressViewWithLinearStyleTests: XCTestCase {
         }
     }
 }
+
+#endif

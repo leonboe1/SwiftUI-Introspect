@@ -1,3 +1,4 @@
+#if !os(watchOS)
 postfix operator ~
 
 postfix func ~ <LHS, T>(lhs: LHS) -> T {
@@ -26,3 +27,5 @@ func recursiveSequence<S: Sequence>(_ sequence: S, children: @escaping (S.Elemen
         }
     }
 }
+
+#endif

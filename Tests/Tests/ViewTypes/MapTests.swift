@@ -1,3 +1,4 @@
+#if !os(watchOS)
 #if canImport(MapKit)
 import MapKit
 import SwiftUI
@@ -49,4 +50,6 @@ final class MapTests: XCTestCase {
         }
     }
 }
+#endif
+
 #endif

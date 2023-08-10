@@ -1,3 +1,4 @@
+#if !os(watchOS)
 import SwiftUI
 
 @main
@@ -8,3 +9,5 @@ struct App: SwiftUI.App {
         }
     }
 }
+
+#endif

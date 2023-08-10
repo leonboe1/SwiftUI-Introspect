@@ -1,3 +1,4 @@
+#if !os(watchOS)
 //
 //  RootView.swift
 //  Showcase
@@ -50,3 +51,5 @@ struct DetailView: View {
         NavigationController.shared?.pushViewController(controller, animated: true)
     }
 }
+
+#endif

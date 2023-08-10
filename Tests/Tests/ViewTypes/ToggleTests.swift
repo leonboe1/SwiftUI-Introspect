@@ -1,3 +1,4 @@
+#if !os(watchOS)
 #if !os(tvOS)
 import SwiftUI
 import SwiftUIIntrospect
@@ -51,4 +52,6 @@ final class ToggleTests: XCTestCase {
         }
     }
 }
+#endif
+
 #endif

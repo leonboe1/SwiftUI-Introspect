@@ -1,3 +1,4 @@
+#if !os(watchOS)
 #if !os(macOS) && !LEGACY_MACOS_SDK
 import SwiftUI
 import SwiftUIIntrospect
@@ -42,4 +43,6 @@ final class NavigationViewWithStackStyleTests: XCTestCase {
         }
     }
 }
+#endif
+
 #endif

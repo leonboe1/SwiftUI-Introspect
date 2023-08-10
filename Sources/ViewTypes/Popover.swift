@@ -1,3 +1,4 @@
+#if !os(watchOS)
 import SwiftUI
 
 /// An abstract representation of `.popover` in SwiftUI.
@@ -50,4 +51,6 @@ extension iOSViewVersion<PopoverType, UIPopoverPresentationController> {
     }
 }
 #endif
+#endif
+
 #endif

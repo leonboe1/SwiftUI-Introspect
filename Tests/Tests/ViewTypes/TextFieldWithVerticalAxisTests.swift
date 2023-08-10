@@ -1,3 +1,4 @@
+#if !os(watchOS)
 #if !LEGACY_MACOS_SDK
 import SwiftUI
 import SwiftUIIntrospect
@@ -66,4 +67,6 @@ final class TextFieldWithVerticalAxisTests: XCTestCase {
         }
     }
 }
+#endif
+
 #endif

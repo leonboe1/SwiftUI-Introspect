@@ -1,3 +1,4 @@
+#if !os(watchOS)
 import SwiftUI
 
 @main
@@ -26,3 +27,5 @@ final class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
 }
+
+#endif

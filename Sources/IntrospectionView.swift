@@ -1,3 +1,4 @@
+#if !os(watchOS)
 import SwiftUI
 
 typealias IntrospectionViewID = UUID
@@ -242,3 +243,5 @@ extension PlatformEntity {
         }
     }
 }
+
+#endif

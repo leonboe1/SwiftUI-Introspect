@@ -1,3 +1,4 @@
+#if !os(watchOS)
 import SwiftUI
 
 /// The scope of introspection i.e. where introspect should look to find
@@ -216,4 +217,6 @@ extension NSWindow: PlatformEntity {
     @_spi(Internals)
     public func isDescendant(of other: NSWindow) -> Bool { false }
 }
+#endif
+
 #endif

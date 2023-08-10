@@ -1,3 +1,4 @@
+#if !os(watchOS)
 #if canImport(AppKit) && !targetEnvironment(macCatalyst)
 import SwiftUI
 import AppKit
@@ -64,3 +65,5 @@ public struct AppKitIntrospectionView<TargetViewType: NSView>: NSViewRepresentab
 }
 #endif
 
+
+#endif

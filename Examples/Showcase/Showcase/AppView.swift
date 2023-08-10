@@ -1,3 +1,4 @@
+#if !os(watchOS)
 import SwiftUI
 import SwiftUIIntrospect
 
@@ -476,3 +477,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+#endif
