@@ -6,8 +6,7 @@ let package = Package(
     name: "swiftui-introspect",
     platforms: [
         .iOS(.v13),
-        .tvOS(.v13),
-        .macOS(.v10_15),
+        .tvOS(.v13)
     ],
     products: [
         // new module
